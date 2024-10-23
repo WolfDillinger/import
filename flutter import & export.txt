@@ -1,0 +1,16 @@
+npx -p node-firestore-import-export firestore-export -a ahnaf.json -b backfire.json
+
+firebase auth:export data.json --project sap-app-45a75
+
+firebase auth:import data.json --project sabinternal
+
+firebase firestore:import datafire.json --project myship-51fb5
+
+
+npx -p node-auth-import-export auth-export -a ahnaf.json -b back.json
+
+
+npx -p node-firestore-import-export auth-firestore -a ahnaf.json -b backfire.json
+
+
+npx -p node-firestore-import-export firestore-import -a ahnaf.json -b backfire.json
